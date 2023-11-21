@@ -1,0 +1,25 @@
+.carouselContainer{
+    height: 700px;
+    width: 757px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 757px 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.carouselContainer img{
+    height: 100%;
+    width: 80%;
+}
+.leftArrow, .rightArrow{
+    height: 100%;
+    width: 10%;
+    border: 1px solid white;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftArrow, .rightArrow :hover{
+    cursor: pointer;
+}
